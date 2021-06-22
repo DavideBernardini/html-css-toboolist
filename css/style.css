@@ -63,3 +63,12 @@ header {
     border-color: lightgray;
 }
 
+/* Liste */
+
+ul {
+    list-style: none;
+}
+
+.tags {
+    display: inline-block;
+}
