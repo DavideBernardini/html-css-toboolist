@@ -35,13 +35,14 @@ header {
     background-color: white;
     width: 70%;
     margin: 3% auto;
+    padding-bottom: 1%;
 }
 
 /* Buttons */
 
 .button_section {
     padding: 2% 5%;
-    border-bottom: 1px solid #f4f6f;
+    border-bottom: 3px solid #f4f6f7;
 }
 
 .buttons {
@@ -71,4 +72,9 @@ ul {
 
 .tags {
     display: inline-block;
+}
+
+.list_section {
+    margin: 3% 5%;
+
 }
