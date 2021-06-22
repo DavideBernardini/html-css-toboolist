@@ -1,9 +1,11 @@
 /* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -70,11 +72,48 @@ ul {
     list-style: none;
 }
 
-.tags {
-    display: inline-block;
-}
-
 .list_section {
     margin: 3% 5%;
+}
 
+.title_list {
+    margin-bottom: 1%;
+    font-size: 140%;
+}
+
+li {
+    margin-bottom: 2%;
+    font-size: 130%;
+}
+
+.tags {
+    display: inline-block;
+    font-size: 60%;
+    padding: 0.8%;
+    color: white;
+    border-radius: 15px;
+}
+
+.editorial_tag {
+    background-color: #47adf1;
+}
+
+.q1_tag {
+    background-color: #9c72e4;
+}
+
+.recruiting_tag {
+    background-color: #64c0a9;
+}
+
+.mobile_tag {
+    background-color: #f3a33e;
+}
+
+.website_tag {
+    background-color: #d864a2;
+}
+
+.sales_tag {
+    background-color: #b0c926;
 }
