@@ -49,7 +49,7 @@ header {
 
 .buttons {
     font-size: 100%;
-    padding: 0.5%;
+    padding: 0.6% 1%;
     border-radius: 5px;
 }
 
@@ -86,10 +86,11 @@ li {
     font-size: 130%;
 }
 
+/* Tags */
+
 .tags {
-    display: inline-block;
     font-size: 60%;
-    padding: 0.8%;
+    padding: 0.8% 1%;
     color: white;
     border-radius: 15px;
 }
@@ -116,4 +117,20 @@ li {
 
 .sales_tag {
     background-color: #b0c926;
+}
+
+/* Check/cross mark */
+
+.mark {
+    margin-right: 1%;
+    font-size: 130%;
+    vertical-align: text-top;
+}
+
+.done {
+    color: #6bc4af;
+}
+
+.not_done {
+    color: #eb5b54;
 }
