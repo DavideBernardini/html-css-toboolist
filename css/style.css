@@ -31,3 +31,35 @@ header {
 
 /* Main */
 
+.container {
+    background-color: white;
+    width: 70%;
+    margin: 3% auto;
+}
+
+/* Buttons */
+
+.button_section {
+    padding: 2% 5%;
+    border-bottom: 1px solid #f4f6f;
+}
+
+.buttons {
+    font-size: 100%;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+#button_azure {
+    color: white;
+    background-color: #47adf1;
+    border-color:#47adf1 ;
+
+}
+
+#button_white {
+    background-color: white;
+    color: lightgray;
+    border-color: lightgray;
+}
+
